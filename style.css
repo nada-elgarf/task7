@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+button {
+    border: none;
+}
+
+.nav-link {
+    color: #fff;
+
+}
+
+.nav-link:hover {
+    background-color: #ccc;
+}
+
+.text span {
+    color: #aaa;
+    font-style: italic;
+}
+
+.text p {
+    line-height: 1.6;
+    margin: 10px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.box img {
+    width: 100px;
+}
+
+.contents {
+    width: 100%;
+    max-width: 100%;
+    background-color: #000;
+    height: 900px;
+}
+
+.tour-date h2 {
+    margin: 20px;
+    color: #fff;
+}
+
+.tour-date span {
+    display: block;
+    font-style: italic;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.tour-date .list {
+    width: 800px;
+    margin-bottom: 0;
+}
+
+.tour-date .list ul {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.tour-date li {
+    color: #757575;
+}
+
+.tour-date li:not(:last-child) {
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.tour-date li span {
+    display: inline-block;
+    font-style: normal;
+    margin-inline: 11px;
+    background-color: #f44336;
+    color: #fff;
+    padding: 2px;
+}
+
+.tour-date li:last-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tour-date li .last-child {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.content {
+    background-color: #fff;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content b {
+    padding: 10px;
+}
+
+.content span {
+    font-style: normal;
+    padding: 10px;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+.content button {
+    margin: 10px;
+}
+
+.content button:hover {
+    background-color: #aaa;
+    color: #000;
+    border: none;
+}
+
+.contact h3 {
+    padding: 20px;
+}
+
+.contact span {
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #aaa;
+    font-style: italic;
+}
+
+.contact ul li span {
+    color: #000;
+}
+
+.contact button {
+    display: block;
+    margin-left: auto;
+    margin-top: 7px;
+}
+
+.footer {
+    padding: 40px;
+}
+
+.footer .listed {
+    font-size: 22px;
+    color: #aaa;
+}
+
+.footer .listed span {
+    font-size: 15px;
+}
